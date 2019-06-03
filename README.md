@@ -26,14 +26,27 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    ANSWER: 
+
+    - Express Router (Using a single URL for each resourse), 
+
+    - Express Middleware ( built in middleware functions to inspect and modify req & res calls)
+
 - [ ] Describe Middleware?
+
+    ANSWER: Functions that access (req, res, next) to perform code, make changes to code, pass code on, end (req. res) cylce or call another middleware.
 
 - [ ] Describe a Resource?
 
+    ANSWER: Object and relevant data with its methods (GET, POST, PUT, DELETE)
+
 - [ ] What can the API return to help clients know if a request was successful?
+
+ANSWER: Status codes with messages, specifically 
 
 - [ ] How can we partition our application into sub-applications?
 
+    ANSWER: Using Express Routerx
 ## Project Setup
 
 Follow these steps to set up and work on your project:
